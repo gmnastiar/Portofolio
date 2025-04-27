@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        nav {
+            background-color: #005fa3;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #005fa3;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nama Kamu</h1>
+    <p>Profesional Sistem Informasi | Developer | Analis</p>
+</header>
+
+<nav>
+    <a href="#about">Tentang Saya</a>
+    <a href="#projects">Proyek</a>
+    <a href="#skills">Keahlian</a>
+    <a href="#contact">Kontak</a>
+</nav>
+
+<section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya seorang profesional di bidang Sistem Informasi dengan keahlian dalam analisis sistem, pengelolaan database, dan pengembangan aplikasi berbasis web. Saya memiliki semangat untuk terus belajar dan beradaptasi dengan teknologi terbaru.</p>
+</section>
+
+<section id="projects">
+    <h2>Proyek Saya</h2>
+    <div class="projects">
+        <div class="project-card">
+            <h3>Nama Proyek 1</h3>
+            <p>Deskripsi singkat tentang proyek. Apa yang kamu buat, teknologi yang digunakan, dan hasilnya.</p>
+        </div>
+        <div class="project-card">
+            <h3>Nama Proyek 2</h3>
+            <p>Deskripsi singkat tentang proyek. Bisa ditambahkan link GitHub atau demo jika ada.</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Keahlian</h2>
+    <ul>
+        <li>Database Management (MySQL, PostgreSQL)</li>
+        <li>Web Development (HTML, CSS, PHP, JavaScript)</li>
+        <li>Analisis Sistem Informasi</li>
+        <li>Cloud Services (AWS, Azure)</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Kontak</h2>
+    <p>Email: kamu@email.com</p>
+    <p>LinkedIn: linkedin.com/in/kamu</p>
+</section>
+
+<footer>
+    &copy; 2025 Nama Kamu. All rights reserved.
+</footer>
+
+</body>
+</html>
